@@ -1,0 +1,110 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    text-decoration: underline;
+}
+
+/* Offer Details */
+.offer-details {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.offer-details h2 {
+    font-size: 2em;
+}
+
+.offer-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offer-details ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Call to Action Section */
+.how-to-claim {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.how-to-claim h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.how-to-claim ol {
+    padding: 0;
+    list-style-type: decimal;
+}
+
+.how-to-claim ol li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
